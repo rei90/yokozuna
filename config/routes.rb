@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  namespace :front, path: ' ' do
+    root to: 'pages#top'      
+  end
+  namespace :admin do
+    root to: 'pages#top'      
+  end
+  root to: 'front/pages#top'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
