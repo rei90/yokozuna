@@ -1,4 +1,4 @@
 class FrontController < ApplicationController
-  # layout 'front/layouts/base'
+  layout 'front/layouts/base'
 end
 
